@@ -22,7 +22,7 @@ resource "aws_db_instance" "my_rds" {
   instance_class       = "db.t2.micro"
   name                 = "mydb"
   username             = "admin"
-  password             = "password"  # Change to a secure password
+  password             = var.db_password
   subnet_group_name    = "default"
   vpc_security_group_ids = [aws_security_group.rds_sg.id]
 }
