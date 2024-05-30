@@ -37,9 +37,10 @@
     
 ## Commands
 ```shell
-$ terraform init
-$ terraform plan
-$ terraform apply
+$ terraform init #to initiate the terraform and download the dependecies
+$ terraform plan #to check the terraform code
+$ terraform apply #to create and implement the code
+$ terraform destory #to destory the deployment if needed
 ```
 
 ### Note
