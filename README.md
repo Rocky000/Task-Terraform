@@ -34,6 +34,13 @@
    - Utilizes modules (vpc, ec2, rds) to organize and encapsulate related resources.
      - Modules allow you to break down your configuration into reusable components.
      - In this case, the modules correspond to the VPC, EC2 instance, and RDS instance configurations defined in separate files.
+    
+## Commands
+```shell
+$ terraform init
+$ terraform plan
+$ terraform apply
+```
 
 ### Note
 By breaking down the configuration into smaller files, it becomes more modular, easier to read, and maintainable, especially as your infrastructure grows in complexity.
